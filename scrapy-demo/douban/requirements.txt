@@ -1,2 +1,2 @@
 hpack==3.0.0
-Scrapy==2.5.1
+Scrapy==2.6.1
