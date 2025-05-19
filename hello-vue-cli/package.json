@@ -2,7 +2,7 @@
   "name": "hello-vue-cli",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "caiquan-github <39827081+trusted-genius@users.noreply.github.com>",
+  "author": "carpcap <39827081+trusted-genius@users.noreply.github.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

@@ -4,7 +4,7 @@ import com.yomahub.liteflow.core.NodeComponent;
 import org.springframework.stereotype.Component;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 @Component("b")
 public class BCmp extends NodeComponent {

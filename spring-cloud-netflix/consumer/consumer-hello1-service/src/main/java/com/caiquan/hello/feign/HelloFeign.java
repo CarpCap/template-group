@@ -4,7 +4,7 @@ import com.caiquan.hello.controller.HelloController;
 import org.springframework.cloud.openfeign.FeignClient;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  * @Title:
  * @Description:
  * @date 2020/10/2817:30

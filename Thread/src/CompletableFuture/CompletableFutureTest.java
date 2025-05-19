@@ -3,7 +3,7 @@ package CompletableFuture;
 import java.util.concurrent.*;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public class CompletableFutureTest {
 
@@ -27,7 +27,7 @@ public class CompletableFutureTest {
      *
      * @param
      * @return
-     * @author Kwon
+     * @author  CarpCap
      * @date 2022/6/27 15:20
      */
     public static  void submitTest() throws ExecutionException, InterruptedException {

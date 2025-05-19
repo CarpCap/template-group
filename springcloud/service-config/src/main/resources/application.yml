@@ -6,7 +6,7 @@ spring:
         lable: master   #分支
         server:
           git:
-            uri: https://github.com/caiquan-github/spring-cloud-config.git #这里是github仓库地址
+            uri: https://github.com/carpcap/spring-cloud-config.git #这里是github仓库地址
             search-paths: /config      #这里是github查找的路径
     boot:
       admin:

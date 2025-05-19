@@ -1,7 +1,7 @@
 package com.caiquan.jni;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public class JniDemo2 {
     public static native int compute(int v1,int v2);

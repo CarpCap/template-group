@@ -3,7 +3,7 @@ import com.google.common.base.Objects;
 import org.junit.Test;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public class ObjectsTest {
     @Test

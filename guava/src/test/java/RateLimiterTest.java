@@ -3,7 +3,7 @@ import com.google.common.util.concurrent.RateLimiter;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public class RateLimiterTest {
     public static void main(String[] args) {

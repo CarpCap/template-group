@@ -4,7 +4,7 @@ import org.springframework.retry.annotation.Backoff;
 import org.springframework.retry.annotation.Retryable;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public interface RetryService {
 
@@ -14,7 +14,7 @@ public interface RetryService {
      *
      * @param
      * @return
-     * @author Kwon
+     * @author  CarpCap
      * @date 2022/7/14 13:43
      */
     @Retryable(value = {RuntimeException.class},maxAttempts = 4,backoff = @Backoff(200))

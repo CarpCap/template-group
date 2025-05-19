@@ -31,7 +31,7 @@ public class WebSocket {
      * @param page 房间号
      * @param session
      * @return
-     * @author Kwon
+     * @author  CarpCap
      * @date 2022/2/11 13:46
      */
     @OnOpen

@@ -1,7 +1,7 @@
 package com.caiquan.jni;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public class JniDemo {
     // 定义 native 方法

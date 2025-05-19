@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 @SpringBootApplication
 public class SpringCloudConsumerApplication {

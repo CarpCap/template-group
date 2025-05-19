@@ -4,7 +4,7 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public class StopWatchTest {
     public static void main(String[] args) throws InterruptedException {

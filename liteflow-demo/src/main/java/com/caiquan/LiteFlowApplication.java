@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 @SpringBootApplication
 public class LiteFlowApplication {

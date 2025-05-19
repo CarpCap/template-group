@@ -8,7 +8,7 @@ import java.nio.channels.FileChannel;
 /**
  *  MappedByteBuffer 可以让文件直接在内存（堆外内存）中修改，操作系统不需要进行拷贝
  *
- * @author Kwon
+ * @author  CarpCap
  * @Title:
  * @Description:
  * @date 2020/11/19 19:43

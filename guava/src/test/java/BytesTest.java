@@ -3,7 +3,7 @@ import com.google.common.primitives.Bytes;
 import java.util.List;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public class BytesTest {
     public static void main(String[] args) {

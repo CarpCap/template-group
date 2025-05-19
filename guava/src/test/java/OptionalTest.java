@@ -2,7 +2,7 @@ import com.google.common.base.Optional;
 import org.junit.Test;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public class OptionalTest {
 

@@ -6,7 +6,7 @@ import com.google.common.base.Throwables;
 
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public class ThrowablesTest {
 

@@ -2,7 +2,7 @@ import com.google.common.base.Preconditions;
 import org.junit.Test;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public class PreconditionsTest {
 

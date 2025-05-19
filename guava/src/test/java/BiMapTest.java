@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.Set;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public class BiMapTest {
     @Test

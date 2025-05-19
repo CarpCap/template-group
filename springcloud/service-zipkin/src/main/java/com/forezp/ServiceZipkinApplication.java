@@ -7,7 +7,7 @@ import zipkin.server.internal.EnableZipkinServer;
 
 /**
  * @ClassName ServiceZipkinApplication
- * @Auther: ToisKwon
+ * @Auther: CarpCap
  * @Date: 2019-11-25 04:24
  * @Description:
  */

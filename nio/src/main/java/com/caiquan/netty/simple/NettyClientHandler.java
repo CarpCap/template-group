@@ -15,7 +15,7 @@ public class NettyClientHandler extends ChannelInboundHandlerAdapter {
      *
      * @param ctx
      * @return
-     * @author Kwon
+     * @author  CarpCap
      * @date 2020/12/12 23:31
      */
     @Override
@@ -31,7 +31,7 @@ public class NettyClientHandler extends ChannelInboundHandlerAdapter {
      * @param ctx
      * @param msg
      * @return
-     * @author Kwon
+     * @author  CarpCap
      * @date 2020/12/12 23:33
      */
     @Override
@@ -50,7 +50,7 @@ public class NettyClientHandler extends ChannelInboundHandlerAdapter {
      * @param ctx
      * @param cause
      * @return
-     * @author Kwon
+     * @author  CarpCap
      * @date 2020/12/12 23:36
      */
     @Override

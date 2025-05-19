@@ -12,7 +12,7 @@ import us.codecraft.webmagic.scheduler.FileCacheQueueScheduler;
 import java.util.List;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  * @Title:
  * @Description:
  * @date 2020/4/25 02:18
@@ -50,7 +50,7 @@ public class JobProcessor implements PageProcessor {
     public static void main(String[] args) {
         Spider.create(new JobProcessor())
                 .addUrl("https://www.jd.com")   //设置爬取页面
-                .setScheduler(new FileCacheQueueScheduler("/Users/ToisKwon/data/scheduler"))
+                .setScheduler(new FileCacheQueueScheduler("/Users/CarpCap/data/scheduler"))
                 .thread(2)
                 .run(); //执行
     }

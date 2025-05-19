@@ -11,7 +11,7 @@ public class FileChannel02 {
     /**
      * 文件读数据到内存
      *
-     * @author Kwon
+     * @author  CarpCap
      * @date 2020/11/18 23:30
      * @param args
      * @return

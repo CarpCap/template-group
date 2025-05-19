@@ -13,7 +13,7 @@ import java.util.List;
 @Controller
 public class FileUploadController {
 
-    final static String FILEPATH="/Users/ToisKwon/test";
+    final static String FILEPATH="/Users/CarpCap/test";
 
     /*
      * 获取file.html页面

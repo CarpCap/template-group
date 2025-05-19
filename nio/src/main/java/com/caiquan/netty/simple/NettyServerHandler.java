@@ -23,7 +23,7 @@ public class NettyServerHandler extends ChannelInboundHandlerAdapter {
      * @param ctx 上下文对象，含有 管道pipeline，通道channel，地址
      * @param msg 客户端发送过来的数据
      * @return
-     * @author Kwon
+     * @author  CarpCap
      * @date 2020/12/6 18:40
      */
     @Override
@@ -76,7 +76,7 @@ public class NettyServerHandler extends ChannelInboundHandlerAdapter {
      *
      * @param ctx 上下文
      * @return
-     * @author Kwon
+     * @author  CarpCap
      * @date 2020/12/6 18:44
      */
     @Override
@@ -92,7 +92,7 @@ public class NettyServerHandler extends ChannelInboundHandlerAdapter {
      * @param ctx
      * @param cause
      * @return
-     * @author Kwon
+     * @author  CarpCap
      * @date 2020/12/6 18:47
      */
     @Override

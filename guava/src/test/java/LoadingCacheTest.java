@@ -5,7 +5,7 @@ import java.time.Duration;
 import java.util.concurrent.ExecutionException;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public class LoadingCacheTest {
     public static void main(String[] args) throws ExecutionException, InterruptedException {

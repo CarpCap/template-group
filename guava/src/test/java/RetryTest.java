@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public class RetryTest {
     public static void main(String[] args) throws ExecutionException, RetryException {

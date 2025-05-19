@@ -17,7 +17,7 @@ func main() {
 	router.LoadHTMLFiles("safe_demo/index.tmpl")
 
 	router.GET("/index", func(c *gin.Context) {
-		c.HTML(http.StatusOK, "index.tmpl", "<a href='https://github.com/caiquan-github'>嘎嘎嘎</a>")
+		c.HTML(http.StatusOK, "index.tmpl", "<a href='https://github.com/carpcap'>嘎嘎嘎</a>")
 	})
 
 	router.Run(":8080")

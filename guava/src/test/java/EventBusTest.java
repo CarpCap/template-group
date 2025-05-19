@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.util.concurrent.Executors;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public class EventBusTest {
     public static void main(String[] args) {

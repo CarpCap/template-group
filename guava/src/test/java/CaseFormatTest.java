@@ -1,7 +1,7 @@
 import com.google.common.base.CaseFormat;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public class CaseFormatTest {
     public static void main(String[] args) {

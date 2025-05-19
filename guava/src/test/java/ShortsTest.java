@@ -3,7 +3,7 @@ import com.google.common.primitives.Shorts;
 import java.util.List;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  */
 public class ShortsTest {
     public static void main(String[] args) {

@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @ClassName ConsumerApplication
- * @Auther: ToisKwon
+ * @Auther: CarpCap
  * @Date: 2020-01-02 02:13
  * @Description:
  */

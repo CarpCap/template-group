@@ -7,7 +7,7 @@ import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import java.io.IOException;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  * @Title:  httpClient连接池
  * @Description:
  * @date 2020/4/21 02:00

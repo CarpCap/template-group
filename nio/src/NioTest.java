@@ -6,14 +6,14 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
 /**
- * @author Kwon
+ * @author  CarpCap
  * @Title:
  * @Description:
  * @date 2020/4/1701:27
  */
 public class NioTest {
     public static void main(String[] args) throws IOException {
-        copyFileUseNIO("/Users/ToisKwon/Downloads/test1/神级插班生.txt","/Users/ToisKwon/Downloads/test2/神级插班生.txt");
+        copyFileUseNIO("/Users/CarpCap/Downloads/test1/神级插班生.txt","/Users/CarpCap/Downloads/test2/神级插班生.txt");
     }
 
     public static void copyFileUseNIO(String src,String dst) throws IOException {

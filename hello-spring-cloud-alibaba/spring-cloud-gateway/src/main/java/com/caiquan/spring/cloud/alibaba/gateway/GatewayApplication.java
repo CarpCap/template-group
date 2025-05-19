@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @ClassName GatewayApplication
- * @Auther: ToisKwon
+ * @Auther: CarpCap
  * @Date: 2020-01-05 23:56
  * @Description:
  */

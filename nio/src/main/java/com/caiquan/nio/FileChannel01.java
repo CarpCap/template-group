@@ -10,7 +10,7 @@ public class FileChannel01 {
     /**
      * 写数据到文件
      *
-     * @author Kwon
+     * @author  CarpCap
      * @date 2020/11/18 23:30
      * @param args
      * @return
