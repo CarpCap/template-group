@@ -21,12 +21,16 @@ Template-Group 是一个为学习、演示、回顾技术而设计的轻量级�
 
 ### 🔧 后端 / 服务端模块
 
-* **bloom-filter-demo**：布隆过滤器功能演示，用于高效判断数据是否存在。
+* **spring-*** ：Java Spring 系列
+* **nio** ：Nio 与 Netty相关
+
 * **dubbo**：基于 Apache Dubbo 的 RPC 服务示例。
 * **elasticsearch**：演示 Elasticsearch 查询、索引管理等基础用法。
 * **go-demo**：Go 语言基础语法示例合集。
 * **go-zero-demo**：基于 go-zero 构建的 API / 服务示例项目。
-* **spring-demo / spring-boot-demo**（如存在）：Spring / Spring Boot API 模板。
+* **python-study**：python 相关的服务
+* **scrapy-demo**：python scrapy演示 
+
 
 ### 🎨 前端模块
 
@@ -50,21 +54,6 @@ Template-Group 是一个为学习、演示、回顾技术而设计的轻量级�
 
 ---
 
-## 🚀 快速使用
-
-```bash
-git clone https://github.com/CarpCap/template-group.git
-cd template-group
-```
-
-选择任意模块运行，例如：
-
-```bash
-cd go-demo
-go run main.go
-```
-
----
 
 ## 🤝 贡献
 
