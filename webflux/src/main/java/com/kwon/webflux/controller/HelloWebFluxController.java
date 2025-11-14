@@ -23,6 +23,7 @@ public class HelloWebFluxController {
         return "Hello, WebFlux !";
     }
 
+    //单个结果用Mono
     @GetMapping("/user")
     public Mono<User> getUser() {
         User user = new User();
@@ -32,6 +33,7 @@ public class HelloWebFluxController {
     }
 
 
+    //多个结果用Flux
     @GetMapping("/userFlux")
     public Flux<User> getUserFlux() {
 
