@@ -49,3 +49,7 @@ Thumbs.db
 ### vs sdk
 **/.vs/ 
 **/x64/ 
+
+
+### nodejs ###
+**/node_modules/ 
