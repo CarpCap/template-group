@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-//interface definition
+// interface definition
 type VowelsFinder interface {
 	FindVowels() []rune
 }
 
 type MyString string
 
-//MyString implements VowelsFinder
+// MyString implements VowelsFinder
 func (ms MyString) FindVowels() []rune {
 	var vowels []rune
 	for _, rune := range ms {

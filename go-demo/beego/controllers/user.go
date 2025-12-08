@@ -17,7 +17,7 @@ type UserController struct {
 }
 
 func (c *UserController) Get() {
-	user := UserDb{1, "kwon", "123456"}
+	user := UserDb{1, "CarpCap", "123456"}
 	c.Data["json"] = map[string]interface{}{
 		"code": 0,
 		"msg":  "",

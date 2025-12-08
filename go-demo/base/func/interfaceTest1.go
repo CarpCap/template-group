@@ -4,20 +4,20 @@ import (
 	"fmt"
 )
 
-//定义工资计算器接口
-//里面有计算工作这一行为
+// 定义工资计算器接口
+// 里面有计算工作这一行为
 type SalaryCalculator interface {
 	CalculateSalary() int
 }
 
-//固定职工
+// 固定职工
 type Permanent struct {
 	empId    int
 	basicpay int
 	pf       int
 }
 
-//合同员工
+// 合同员工
 type Contract struct {
 	empId    int
 	basicpay int
@@ -28,7 +28,7 @@ func (p Permanent) CalculateSalary() int {
 	return p.basicpay + p.pf
 }
 
-//合同员工的工资仅为基本工资   Contract 实现计算工资这一行为
+// 合同员工的工资仅为基本工资   Contract 实现计算工资这一行为
 func (c Contract) CalculateSalary() int {
 	return c.basicpay
 }
