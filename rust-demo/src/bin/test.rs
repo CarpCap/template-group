@@ -1,7 +1,8 @@
-fn test() -> i32 {
-    1 + 5
-}
-
 fn main() {
-    println!("test function returns: {}", test());
+    let x = 5;
+    let y = &x;
+
+
+    assert_eq!(5, x);
+    assert_eq!(5, *y);
 }
