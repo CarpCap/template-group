@@ -1,7 +1,13 @@
 public class HelloJNI {
     static {
-        // 加载生成的动态库（Windows下是 .dll, Linux/macOS 下是 .so 或 .dylib）
-        System.loadLibrary("hello"); 
+        String osName = System.getProperty("os.name");
+        if (osName.startsWith("win") || osName.startsWith("Win")) {
+            System.loadLibrary("hello");
+        } else {
+            // 这里需要提前将 JniDemo.so 放入linux目录/usr/lib 下 并且执行命令sudo ldconfig
+            System.load("/usr/lib/hello.so");
+        }
+
     }
 
     // 声明本地方法
