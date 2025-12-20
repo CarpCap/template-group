@@ -15,5 +15,7 @@ public class HelloJNI {
 
     public static void main(String[] args) {
         new HelloJNI().sayHello(); // 调用
+        new HelloJNI().sayHello(); // 调用
+        new HelloJNI().sayHello(); // 调用
     }
 }
