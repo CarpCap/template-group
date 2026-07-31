@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Discord WebView Test</title>
+
+<style>
+html,body {
+    margin:0;
+    width:100%;
+    height:100%;
+}
+
+webview {
+    width:100%;
+    height:100%;
+}
+</style>
+
+</head>
+
+<body>
+
+
+<webview
+    id="discord"
+    src="https://x.com"
+    partition="persist:discord-webview"
+    preload="./preload.js"
+></webview>
+
+
+<script>
+
+const webview = document.querySelector('#discord');
+
+
+webview.addEventListener(
+    'dom-ready',
+    () => {
+
+        console.log('Discord loaded');
+
+
+        webview.openDevTools();
+
+
+        webview.executeJavaScript(`
+            console.log('UA:', navigator.userAgent);
+
+            console.log(
+                'Storage:',
+                location.origin
+            );
+        `);
+
+    }
+);
+
+
+webview.addEventListener(
+    'did-fail-load',
+    e=>{
+        console.error(
+            'load fail',
+            e
+        );
+    }
+);
+
+
+</script>
+
+
+</body>
+</html>
